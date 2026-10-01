@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>InterviewReady — Practice before the interview</title>
+  <meta
+    name="description"
+    content="InterviewReady is a proposed interview-practice tool for final-year students."
+  />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            ink: "#172033",
+            muted: "#667085",
+            brand: "#4F46E5",
+            soft: "#EEF2FF"
+          }
+        }
+      }
+    };
+  </script>
+</head>
+
+<body class="min-h-screen bg-slate-50 text-ink antialiased">
+  <header class="mx-auto flex w-full max-w-6xl items-center justify-between px-5 py-5 sm:px-8">
+    <a href="#" class="text-lg font-extrabold tracking-tight" aria-label="InterviewReady home">
+      Interview<span class="text-brand">Ready</span>
+    </a>
+    <span class="hidden text-sm text-slate-500 sm:block">A proposed practice tool for final-year students</span>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="mx-auto grid w-full max-w-6xl gap-10 px-5 pb-16 pt-12 sm:px-8 sm:pt-20 lg:grid-cols-[1.05fr_.95fr] lg:items-center lg:pb-24">
+      <div>
+        <div class="mb-5 inline-flex rounded-full bg-soft px-3 py-1.5 text-xs font-bold text-indigo-700">
+          PRACTICE BEFORE IT MATTERS
+        </div>
+
+        <h1 class="max-w-3xl text-4xl font-black leading-[1.02] tracking-tight sm:text-5xl lg:text-6xl">
+          Know what to say.
+          <span class="text-brand">Practice how to say it.</span>
+        </h1>
+
+        <p class="mt-6 max-w-2xl text-base leading-7 text-slate-600 sm:text-lg">
+          Final-year students spend years preparing their subjects, but interviews require a
+          different skill: communicating clearly under pressure. InterviewReady is a proposed
+          tool to help students practice that skill before the real conversation.
+        </p>
+
+        <div class="mt-8">
+          <a
+            href="#waitlist"
+            class="inline-flex w-full items-center justify-center rounded-xl bg-brand px-5 py-3.5 text-sm font-bold text-white shadow-lg shadow-indigo-200 transition hover:bg-indigo-700 focus:outline-none focus:ring-4 focus:ring-indigo-200 sm:w-auto"
+          >
+            See waitlist information
+          </a>
+          <p class="mt-3 text-xs text-slate-500">
+            No sign-up or submission on this page.
+          </p>
+        </div>
+      </div>
+
+      <!-- Lightweight product visual -->
+      <div class="rounded-2xl border border-slate-200 bg-white p-3 shadow-xl shadow-slate-200/70">
+        <div class="overflow-hidden rounded-xl border border-slate-200">
+          <div class="flex items-center gap-1.5 border-b border-slate-200 bg-slate-50 px-4 py-3">
+            <span class="h-2 w-2 rounded-full bg-slate-300"></span>
+            <span class="h-2 w-2 rounded-full bg-slate-300"></span>
+            <span class="h-2 w-2 rounded-full bg-slate-300"></span>
+          </div>
+          <div class="p-5 sm:p-7">
+            <p class="text-xs font-semibold uppercase tracking-wider text-slate-400">Practice question</p>
+            <h2 class="mt-3 text-lg font-bold leading-7 text-slate-900">
+              “Tell me about a project you’re proud of.”
+            </h2>
+            <div class="mt-5 rounded-xl border border-dashed border-slate-300 p-4">
+              <p class="text-sm text-slate-400">Your answer goes here…</p>
+              <div class="mt-8 h-2 rounded-full bg-slate-100">
+                <div class="h-2 w-2/3 rounded-full bg-indigo-500"></div>
+              </div>
+            </div>
+            <div class="mt-5 flex items-center justify-between text-xs text-slate-500">
+              <span>Practice → reflect → repeat</span>
+              <span class="font-semibold text-emerald-600">In progress</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Problem -->
+    <section class="border-y border-slate-200 bg-white">
+      <div class="mx-auto grid w-full max-w-6xl gap-8 px-5 py-16 sm:px-8 lg:grid-cols-[.75fr_1.25fr] lg:py-20">
+        <div>
+          <p class="text-xs font-bold uppercase tracking-wider text-brand">The problem</p>
+          <h2 class="mt-3 text-3xl font-black leading-tight tracking-tight sm:text-4xl">
+            Preparation on paper isn't the same as practice out loud.
+          </h2>
+        </div>
+
+        <div class="max-w-2xl text-base leading-7 text-slate-600">
+          <p>
+            Students can prepare resumes, revise technical topics, and read common interview
+            questions—yet still feel unsure when they have to answer in real time.
+          </p>
+          <p class="mt-4">
+            Without a simple way to rehearse, it can be difficult to notice where an answer
+            becomes unclear, too long, or hard to communicate confidently.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="mx-auto w-full max-w-6xl px-5 py-16 sm:px-8 lg:py-20">
+      <div class="max-w-2xl">
+        <p class="text-xs font-bold uppercase tracking-wider text-brand">The proposed solution</p>
+        <h2 class="mt-3 text-3xl font-black tracking-tight sm:text-4xl">
+          A focused loop for better interview practice.
+        </h2>
+      </div>
+
+      <div class="mt-10 grid gap-4 md:grid-cols-3">
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-soft text-sm font-black text-brand">01</div>
+          <h3 class="mt-7 text-xl font-bold">Practice realistic questions</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            Rehearse behavioral and interview-style questions in a low-pressure setting before the actual conversation.
+          </p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-soft text-sm font-black text-brand">02</div>
+          <h3 class="mt-7 text-xl font-bold">Spot clearer answers</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            Use structured practice to notice answers that ramble, miss the point, or need a stronger example.
+          </p>
+        </article>
+
+        <article class="rounded-2xl border border-slate-200 bg-white p-6 shadow-sm">
+          <div class="flex h-9 w-9 items-center justify-center rounded-lg bg-soft text-sm font-black text-brand">03</div>
+          <h3 class="mt-7 text-xl font-bold">Build familiarity through repetition</h3>
+          <p class="mt-3 text-sm leading-6 text-slate-600">
+            Repeat the practice loop so the format of an interview becomes more familiar before the real one.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Waitlist information -->
+    <section id="waitlist" class="mx-5 mb-12 overflow-hidden rounded-3xl bg-ink sm:mx-auto sm:max-w-6xl">
+      <div class="px-6 py-12 text-center sm:px-12 sm:py-16">
+        <p class="text-xs font-bold uppercase tracking-wider text-indigo-300">Waitlist information</p>
+        <h2 class="mx-auto mt-3 max-w-2xl text-3xl font-black tracking-tight text-white sm:text-4xl">
+          Interested in seeing where InterviewReady goes?
+        </h2>
+        <p class="mx-auto mt-4 max-w-xl text-sm leading-6 text-slate-300 sm:text-base">
+          This first version does not collect email addresses or create an account.
+          The CTA above simply brings you here so you can review the proposed concept and decide whether
+          you'd want to hear about a future version.
+        </p>
+        <button
+          id="interestButton"
+          type="button"
+          class="mt-7 rounded-xl bg-white px-5 py-3 text-sm font-bold text-ink transition hover:bg-slate-100 focus:outline-none focus:ring-4 focus:ring-white/20"
+        >
+          Acknowledge interest
+        </button>
+        <p id="interestMessage" class="mt-3 hidden text-xs text-indigo-200" role="status">
+          Thanks for your interest. Nothing has been submitted or stored.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t border-slate-200 px-5 py-8 text-center text-xs text-slate-500">
+    © 2026 InterviewReady · Proposed interview-practice concept · No placement or interview outcome is guaranteed.
+  </footer>
+
+  <script>
+    const button = document.getElementById("interestButton");
+    const message = document.getElementById("interestMessage");
+
+    button.addEventListener("click", () => {
+      message.classList.remove("hidden");
+      button.textContent = "Interest acknowledged";
+      button.setAttribute("aria-expanded", "true");
+    });
+  </script>
+</body>
+</html>
